@@ -37,7 +37,7 @@ upodi.SignUp.SignUp(new SignUpRequest {
 ```
 
 ### Working with Customers
-List all customers. Options to list all or paged results.
+List all customers. Options to limited list all or paged results. See limited lists below.
 ```
 var customers = upodi.Customers.List(all: true);
 ```
@@ -55,7 +55,7 @@ var newId = upodi.Customers.Create("acocuntnumber", "fullname", "USD");
 ```
 
 ### Working with Subscriptions
-List all subscriptions. Options to list all or paged results.
+List all subscriptions. Options to limited list all or paged results. See limited lists below.
 ```
 var subscriptions = upodi.Subscriptions.List(all: true);
 ```
@@ -83,3 +83,5 @@ Update amount of a subscription charge.
 ```
 var result = upodi.Subscriptions.SetAmount(subscriptionId, productPlanChargeId, 302.34);
 ```
+## Limited lists
+Using the .List() method on customer and subscription (ex. upodi.Subscriptions.List()) will return a reduced number of records due to performance. You will have to iterate through the list fetching each object to get the full object.
