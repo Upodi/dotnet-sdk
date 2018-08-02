@@ -85,3 +85,8 @@ var result = upodi.Subscriptions.SetAmount(subscriptionId, productPlanChargeId, 
 ```
 ## Limited lists
 Using the .List() method on customer and subscription (ex. upodi.Subscriptions.List()) will return a reduced number of records due to performance. You will have to iterate through the list fetching each object to get the full object.
+
+| List          | Properties    |
+| ------------- | ------------- |
+| Customer      | ID,CompanyName,AccountNumber,CurrencyCode,FullName,AutoBill,RefKey,CreatedDate,ModifiedDate |
+| Subscription  | ID,SubscriptionNumber,CustomerID,ProductPlanID,StartDate,StateCode,Status,EndDate,RefKey,CreatedDate,ModifiedDate      |
