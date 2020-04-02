@@ -6,10 +6,10 @@ Upodi SDK for .NET Core 2.0.0 or .NET Framework 4.5.2 is provided by NuGet. [Dow
 ## Overview
 * [NuGet package](https://www.nuget.org/packages/UpodiSdkCore/)
 * [Documentation](https://docs.upodi.com)
-* [API Documentation](https://docs.upodi.com/v1.0/reference)
+* [API Documentation](https://docs.upodi.com/v2.0/reference)
 * [License](https://github.com/Upodi/dotnet-sdk/blob/master/LICENSE)
-* [Request a trial](http://www.upodi.com/product/signup/)
-* [Stack Overflow](http://stackoverflow.com/questions/tagged/upodi)
+* [Request a trial](https://www.upodi.com/register/walkthrough/)
+* [Stack Overflow](https://stackoverflow.com/questions/tagged/upodi)
 
 ## Getting started
 
