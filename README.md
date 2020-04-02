@@ -4,7 +4,7 @@ Upodi SDK Core for C# and .net developers enables easy to use integration and pr
 Upodi SDK for .NET Core 2.0.0 or .NET Framework 4.5.2 is provided by NuGet. [Download from here](https://www.nuget.org/packages/Upodi.Sdk/) or using your favorite NuGet package manager.
 
 ## Overview
-* [NuGet package](https://www.nuget.org/packages/UpodiSdkCore/)
+* [NuGet package](https://www.nuget.org/packages/Upodi.Sdk/)
 * [Documentation](https://docs.upodi.com)
 * [API Documentation](https://docs.upodi.com/v2.0/reference)
 * [License](https://github.com/Upodi/dotnet-sdk/blob/master/LICENSE)
