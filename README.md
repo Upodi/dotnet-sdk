@@ -19,6 +19,13 @@ UpodiService upodi = new UpodiService("{api key}");
 var listOfCustomer = upodi.Customers.List();
 ```
 
+### Non-Mutable Fields
+Upodi SDK provides properties of entities subject to the Upodi API as documented here [https://docs.upodi.com/v2.0/reference](https://docs.upodi.com/v2.0/reference). However a few changes apply as some properties are controlled by the API - and the Upodi SDK only provides a pass through.
+
+* ID. *Guid*. The ID is required to create objects via the Upodi API. However the ID will be changes upon creation as the ID is controlled by Upodi. Example: As such, you will have to create a new customer with ID = Guid.NewGuid(), which then is returned after creation with a system assigned ID.
+* CreatedDate and ModifiedDate. *DateTime*. These fields are always set by Upodi.
+* CreatedBy and ModifiedBy. *Guid*. These fields are always set by Upodi.
+
 ### 10 line sign up
 10 lines and you have signed up a customer, assigned a plan and started a subscription. This example uses Stripe.
 ```
